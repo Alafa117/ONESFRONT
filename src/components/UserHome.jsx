@@ -48,7 +48,7 @@ function UserHome({ user }) {
     // Función para obtener los códigos registrados del backend usando el método POST
 const fetchCodigosRegistrados = async () => {
     try {
-        const response = await fetch("https://backganacomoloco-b1gi.vercel.app/v1/signos/codigosregistrados", {
+        const response = await fetch("https://onesback.vercel.app/v1/signos/codigosregistrados", {
             method: "POST",
             headers: { 
                 "Content-Type": "application/json"

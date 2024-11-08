@@ -42,7 +42,7 @@ function Form({ callback }) {
 
     return (
         <form onSubmit={validateUser}>
-            <h1 id="txtBienvenida">¡Gana como Loco!</h1>
+            <h1 id="txtBienvenida">Gana como loco</h1>
             
             <h4 className="txt">Nombre de Usuario</h4>  
             <input 

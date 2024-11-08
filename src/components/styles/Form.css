@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+}
+
+h1#txtBienvenida {
+    font-size: 28px;
+    color: #000000; /* Negro para el texto */
+    margin-bottom: 20px;
+    animation: bounce 1s ease infinite alternate;
+}
+
+h4.txt {
+    font-size: 16px;
+    color: #333333; /* Gris oscuro para texto secundario */
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input.entry {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #333333; /* Borde gris oscuro */
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+input.entry:focus {
+    border-color: #000000; /* Negro en foco */
+}
+
+input#btnEnviar {
+    width: 100%;
+    padding: 10px;
+    background-color: #333333; /* Fondo gris oscuro para botón */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+input#btnEnviar:hover {
+    background-color: #000000; /* Negro en hover */
+    transform: translateY(-3px);
+}
+
+button#forgotPasswordLink {
+    margin-top: 15px;
+    background-color: transparent;
+    color: #333333; /* Gris oscuro */
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+button#forgotPasswordLink:hover {
+    color: #000000; /* Negro en hover */
+}
